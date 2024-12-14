@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Emri" required name="emri" /> <!-- required makes Form required (using the submit button)--> 
+        <br />
+        <br />
+        <input type="text" placeholder="Mbiemri" />
+        <br />
+        <br />
+        <input type="number" placeholder="Age" />
+        <br />
+        <br />
+        <input type="email" placeholder="Email" />
+        <br />
+        <br />
+        <input type="password" placeholder="Password" />
+        <br />
+        <br />
+        <input type="time" placeholder="Time" />
+        <br />
+        <br />
+        <input type="date" placeholder="Date" />
+        <br />
+        <br />
+        <div>            <!-- must be in div in order to seperate them and make it more readable-->
+            <div>            <!-- must be in div in order to seperate them and make it more readable-->
+                <div>        <!-- must be in div in order to seperate them and make it more readable-->
+                    <Label for="html">
+                        Html
+                    </Label>
+                    <input type="checkbox" id="html" />
+                </div>
+                <div>        <!-- must be in div in order to seperate them and make it more readable-->
+                    <Label for="css">
+                        CSS
+                    </Label>
+                    <input type="checkbox" id="css" />
+                </div>
+            </div>
+            <br />
+            <div>
+                <h3>Zgjedhni Gjuhen programuese?</h3>
+                <div>        <!-- must be in div in order to seperate them and make it more readable-->
+                    <Label for="javascript">
+                        javascript
+                    </Label>
+                    <input type="radio" id="javascript" name="language" />
+                </div>
+                <div>        <!-- must be in div in order to seperate them and make it more readable-->
+                    <Label for="css">
+                        CSS
+                    </Label>
+                    <input type="radio" id="css" name="language" />
+                </div>
+            </div>
+        </div>
+        <input type="range" min="1" max="10" value="9" />
+        <br />
+        <br />
+        <input type="color" />
+        <br />
+        <br />
+        <input type="file" accept=".png">
+        <br />
+        <br />
+        <input type="hidden" name="isLogin" value="True"/>
+        <input type="submit" />
+    </form>
+</body>
+</html>

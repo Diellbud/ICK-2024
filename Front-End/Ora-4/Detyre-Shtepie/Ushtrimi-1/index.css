@@ -1,0 +1,27 @@
+body {
+    background-color: #DF685C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+text-align: center;
+}
+.afternoon {
+    color: #E8EBEA;
+    font-size: xx-large;
+    margin-top: -80px;
+    margin-bottom: 90px;
+}
+label{
+    font-weight: 700;
+}
+select{
+    font-weight: 600;
+}
+.submit{
+    margin: 10px;
+    color: #F6F6F6;
+    width: 400px;
+    height: 30px;
+    background-color: #202021;
+    font-weight: 900;
+}

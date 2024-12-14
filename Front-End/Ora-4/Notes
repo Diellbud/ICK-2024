@@ -1,0 +1,44 @@
+To use CSS we have 3 methods:
+                             Internal (It is its own element)
+                             External (Found outside the main File)
+                             In-Line  (It is an attribute in elements)
+in CSS
+
+<p class="Description" id="Desc">
+        Hello
+<p/>
+
+.description{
+    color:blue
+}
+Changes the Classes which is named "Description" into the color blue
+
+
+#desc{
+    color:red
+}
+Changes the Ids which is named "desc" into the color red
+
+
+p{
+    color:Green
+}
+Changes all of the <p>'s into the color green
+
+Margin moves the outside children
+Padding moves the inside children
+Box-sizing:"border-box" makes padding and margins respect the width and height previously given
+
+Units:
+PX - ni pik ne ekran
+EM - (Amount of EMs) * (px i prindit)
+REM - (Amount of REMs) * (px i Rootit)
+% - Takes up the amount of % of the Roots screen (in real time)
+vh - simmilar to % but not in real-time
+
+
+display: block; acts like a div
+display: InLine; acts like a span
+display: InLine-block; acts like a span but width and height can be changable
+display: None; acts like nothing
+visability: hidden; hides element but still keeps its space

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 230px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 8px;
+}
+
+.img{
+    height: 180px;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.discountContainer{
+   position: absolute;
+   top: 8px;
+   right: 8px;
+   background-color: #E65229;
+   padding: 2px;
+   border-radius: 4px;
+}
+
+.discountContainer p{
+    color: white;
+    font-size: 14px;
+}
+
+.productDescriptions{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.productTitle{
+    font-size: 16px;
+}
+
+.productTitleContainer{
+    height: 35px;
+    overflow: hidden;
+}
+
+.discountAmount{
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #6E6E6E;
+    font-weight: 400;
+}
+
+.includeVat {
+    font-size: 10px;
+    color: #6E6E6E;
+    font-weight: 400;
+}
+
+.footerContainer{
+    display: flex;
+    gap: 8px;
+}
+
+.iconContainer{
+    width: 70px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addToCartButton{
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    border-width: 0;
+}
+
+.addToCartButton:hover{
+    background-color: #E65229;
+    color: white;
+}
+
+.iconContainer:hover {
+    background-color: #E65229;
+}
+
+.iconContainer:hover .icon{
+    stroke: white
+}
+
+.icon{
+    stroke: #1F1F1F;
+}

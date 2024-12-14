@@ -1,0 +1,26 @@
+.container{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.children1{
+background-color: blue;
+width: 20px;
+height: 20px;
+position: absolute;
+z-index: 2;
+}
+.children2{
+background-color: green;
+width: 20px;
+height: 20px;
+position: absolute;
+z-index: 1;
+}
+.opacityChildren{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    opacity: 0.8;
+}

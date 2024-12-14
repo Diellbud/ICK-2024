@@ -1,0 +1,31 @@
+.name{
+    color: blue;
+    text-align: center;
+}
+.container{
+    background-color: red;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fakeContainer{
+    background-color: green;
+    height: 20px;
+    
+}
+.ndryshe{
+    color: yellow;
+    text-align: right;
+    background-color: purple;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: uppercase   ;
+}
+.description{
+    color: white;
+}

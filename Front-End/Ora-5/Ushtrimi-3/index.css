@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    height: 100px;
+    margin-bottom: 20px;    
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+}
+.children {
+    background-color: aqua;
+    padding: 10px;
+} 

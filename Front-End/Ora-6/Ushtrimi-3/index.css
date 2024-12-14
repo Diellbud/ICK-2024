@@ -1,0 +1,10 @@
+.container{
+    height: 70px;
+    background-color: red;
+    padding: 3px;
+    overflow: auto;
+}
+.otherContainer{
+    height: 140px;
+    background-color: green;
+}

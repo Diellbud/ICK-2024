@@ -1,0 +1,25 @@
+.parent{
+    background-color: #6B6461;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 400px;
+    gap: 30px;
+}
+.children{
+    background-color: #8AD2B7;
+    flex: 1;
+}
+.parent1{
+    display: flex;
+    flex-direction: column;
+  flex: 1;
+  gap: 15px;
+}
+.parent2{
+    display: flex;
+    flex-direction: row;
+  flex: 1; 
+  gap: 15px;
+}

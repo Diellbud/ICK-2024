@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GeeksforGeeks Survey Form</title>
+</head>
+
+<body>
+    <h2 class="title">GeeksforGeeks Survey Form</h2>
+    <div class="container">
+        <form action="">
+            <div class="name">
+                <label for="name">Name</label><br />
+                <input type="text" placeholder="Enter Your Name" required id="name" name="name" class="input">
+            </div>
+            <br />
+            <div class="Email">
+                <label for="email">Email</label><br />
+                <input type="email" placeholder="Enter Your Email" required id="email" name="Email" class="input">
+            </div>
+            <br />
+            <div class="Age">
+                <label for="age">Age</label><br />
+                <input type="number" placeholder="Enter Your Age" required id="age" name="Age" class="input">
+            </div>
+            <br />
+            <div class="Options">
+                <label for="Options">Which Option best describe you?</label><br />
+                <select name="Options" id="Options">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="CEO">CEO</option>
+                    <option value="Mergim">Mergim</option>
+                </select>
+            </div>
+            <br />
+            <div class="Reccomend">
+                <label for="Reccomend">Would you Reccomend GeeksforGeeks to your freinds?</label><br />
+                <input type="radio" required id="Yes" name="Reccomend">
+                <label for="Yes">Yes</label><br />
+                <input type="radio" required id="No" name="Reccomend">
+                <label for="No">No</label><br />
+                <input type="radio" required id="Maybe" name="Reccomend">
+                <label for="Maybe">Maybe</label>
+            </div>
+            <br />
+            <div class="Languages">
+                <label for="Languages">What Languages do you know?</label><br />
+                <input type="checkbox" id="HTML" name="Languages">
+                <label for="HTML">HTML</label><br />
+                <input type="checkbox" id="CSS" name="Languages">
+                <label for="CSS">CSS</label><br />
+                <input type="checkbox" id="Cpp" name="Languages">
+                <label for="Cpp">C++</label><br />
+                <input type="checkbox" id="C" name="Languages">
+                <label for="C">C</label><br />
+                <input type="checkbox" id="Csharp" name="Languages">
+                <label for="Csharp">C#</label><br />
+                <input type="checkbox" id="Javascript" name="Languages">
+                <label for="Javascript">Javascript</label><br />
+                <input type="checkbox" id="Java" name="Languages">
+                <label for="Java">Java</label><br />
+                <input type="checkbox" id="Other" name="Languages">
+                <label for="Other">Other</label>
+            </div>
+            <br />
+            <div class="Comment">
+                <label for="Comment">Any Comments or Suggestions?</label><br />
+                <textarea name="Comment" id="Comment"></textarea>
+            </div>
+            <input type="submit" class="input submit">
+        </form>
+    </div>
+</body>
+
+</html>

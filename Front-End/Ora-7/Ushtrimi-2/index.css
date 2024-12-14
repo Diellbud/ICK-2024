@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.children{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    transition-property: width, height, background-color;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}
+.children:hover{
+    width: 100px;
+    height: 120px;
+    background-color: blue;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.children-animation{
+    width: 0%;
+    height: 0%;
+    animation: backgroundAnimation 2s;
+    background-color: blue;
+    /* animation-duration: 1s;
+     */
+}
+@keyframes backgroundAnimation {
+    100% {
+        width: 90%;
+        height: 90%;
+        background-color: green;
+    }
+}

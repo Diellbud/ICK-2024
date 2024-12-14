@@ -1,0 +1,21 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.container:hover{
+    background-color: blue;
+    scale: 1.1;
+}
+.descriptionInput:disabled{
+    background-color: gray;
+}
+.descriptionInput:focus{
+    color: red;
+}
+.isvisited:visited{
+    background-color: red;
+}
+.HelloWorld::first-letter{
+    text-transform: lowercase;
+}

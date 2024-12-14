@@ -1,0 +1,15 @@
+.container{
+    display: inline-block;
+    max-width: 100px;
+    background-color: aqua;
+}
+.invisible{
+    background-color: red;
+    height: 20px;
+    /* display: none; */
+}
+.invisible2{
+    background-color: green;
+    height: 20px;
+    /* display: none; */
+}
