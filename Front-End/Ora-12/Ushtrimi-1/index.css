@@ -13,3 +13,7 @@
     -moz-box-shadow: 1px 9px 24px -6px rgba(0,0,0,0.75);
     box-shadow: 1px 9px 24px -6px rgba(0,0,0,0.75);
 }
+h2{
+    height: 50%;
+    overflow: hidden;
+}
